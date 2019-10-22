@@ -15,21 +15,27 @@ export default class Header extends React.Component {
         <Navbar className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav" expand="lg"
                 collapseOnSelect={true}>
           <div className="container">
-            <a className="navbar-brand js-scroll-trigger" href="#page-top" onClick={Scroller.handleAnchorScroll}>Start Bootstrap</a>
+            <a className="navbar-brand js-scroll-trigger" href="#page-top" onClick={Scroller.handleAnchorScroll}>Nadiia Astakhova</a>
             <Navbar.Toggle aria-controls="navbarResponsive"/>
             <Navbar.Collapse id="navbarResponsive">
               <Nav className="navbar-nav ml-auto my-2 my-lg-0">
                 <Scrollspy className="navbar-nav"
-                           items={["about", "services", "portfolio", "contact"]}
-                           currentClassName="active" rootEl={"#mainNav"} offset={-75}>
+                           items={["about", "experience", "education", "technologies", "other", "contact"]}
+                           currentClassName="active" rootEl={"#mainNav"} offset={-175}>
                   <li className="nav-item">
-                    <Nav.Link className={"js-scroll-trigger"} href="#about" onClick={Scroller.handleAnchorScroll}>About</Nav.Link>
+                    <Nav.Link className={"js-scroll-trigger"} href="#about" onClick={Scroller.handleAnchorScroll}>About me</Nav.Link>
                   </li>
                   <li className="nav-item">
-                    <Nav.Link className={"js-scroll-trigger"} href="#services" onClick={Scroller.handleAnchorScroll}>Services</Nav.Link>
+                    <Nav.Link className={"js-scroll-trigger"} href="#experience" onClick={Scroller.handleAnchorScroll}>Experience</Nav.Link>
                   </li>
                   <li className="nav-item">
-                    <Nav.Link className={"js-scroll-trigger"} href="#portfolio" onClick={Scroller.handleAnchorScroll}>Portfolio</Nav.Link>
+                    <Nav.Link className={"js-scroll-trigger"} href="#education" onClick={Scroller.handleAnchorScroll}>Education</Nav.Link>
+                  </li>
+                  <li className="nav-item">
+                    <Nav.Link className={"js-scroll-trigger"} href="#technologies" onClick={Scroller.handleAnchorScroll}>Technologies</Nav.Link>
+                  </li>
+                  <li className="nav-item">
+                    <Nav.Link className={"js-scroll-trigger"} href="#other" onClick={Scroller.handleAnchorScroll}>Special skills</Nav.Link>
                   </li>
                   <li className="nav-item">
                     <Nav.Link className={"js-scroll-trigger"} href="#contact" onClick={Scroller.handleAnchorScroll}>Contact</Nav.Link>
