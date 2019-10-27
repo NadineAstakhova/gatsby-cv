@@ -209,37 +209,58 @@ export default class IndexPage extends React.Component {
 
         <section className="page-section" id="technologies">
           <div className="container">
-            <h2 className="text-center mt-0">MY FAVORITE TECHNOLOGIES</h2>
+            <h2 className="text-center mt-0">MY TECH STACK</h2>
             <hr className="divider my-4"/>
             <div className="row">
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-gem text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Sturdy Themes</h3>
-                  <p className="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                  <i className="fab fa-4x fa-php text-primary mb-4"></i>
+                  <p className="text-muted mb-0">Yii2, Zend 2</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Up to Date</h3>
-                  <p className="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                  <i className="fab fa-4x fa-laravel text-primary mb-4"></i>
+                  <p className="text-muted mb-0">Laravel v. 5.4 - 5.8</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-globe text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Ready to Publish</h3>
-                  <p className="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                  <i className="fab fa-4x fa-symfony text-primary mb-4"></i>
+                  <p className="text-muted mb-0">Symfony v. 3.0 - 4.1</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
-                  <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-                  <h3 className="h4 mb-2">Made with Love</h3>
-                  <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                  <i className="fa fa-4x fa-database text-primary mb-4"></i>
+                  <p className="text-muted mb-0">MySQL</p>
                 </div>
               </div>
+              <div className="col-lg-3 col-md-6 text-center">
+                <div className="mt-5">
+                  <i className="fab fa-4x fa-aws text-primary mb-4"></i>
+                  <p className="text-muted mb-0">For management files in big projects</p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 text-center">
+                <div className="mt-5">
+                  <i className="fab fa-4x fa-js text-primary mb-4"></i>
+                  <p className="text-muted mb-0">jQuery</p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 text-center">
+                <div className="mt-5">
+                  <i className="fab fa-4x fa-html5 text-primary mb-4"></i>
+                  <p className="text-muted mb-0">HTML5, CSS3, Bootstrap</p>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 text-center">
+                <div className="mt-5">
+                  <i className="fab fa-4x fa-java text-primary mb-4"></i>
+                  <p className="text-muted mb-0">Some experience in CORE JAVA, JAVA SE, ANDROID SDK</p>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
@@ -250,32 +271,32 @@ export default class IndexPage extends React.Component {
             <p className="text-muted mb-0">Language skills:</p>
             <hr className="divider my-4"/>
 
-            <div className="row">
-            <div className="col-lg-2 col-md-6 text-center">
+            <div className="row lang-row">
+            <div className="col-lg-2 col-md-6 text-center lang-col">
               <div className="mt-6">
                 <h3 className="h4 mb-2">Russian</h3>
                 <p className="text-muted mb-0">Native</p>
               </div>
             </div>
-            <div className="col-lg-2 col-md-6 text-center">
+            <div className="col-lg-2 col-md-6 text-center lang-col">
               <div className="mt-6">
                 <h3 className="h4 mb-2">Ukrainian</h3>
                 <p className="text-muted mb-0">Native</p>
               </div>
             </div>
-            <div className="col-lg-2 col-md-6 text-center">
+            <div className="col-lg-2 col-md-6 text-center lang-col">
               <div className="mt-6">
                 <h3 className="h4 mb-2">English</h3>
                 <p className="text-muted mb-0">B1</p>
               </div>
             </div>
-            <div className="col-lg-2 col-md-6 text-center">
+            <div className="col-lg-2 col-md-6 text-center lang-col">
               <div className="mt-6">
                 <h3 className="h4 mb-2">Polish</h3>
                 <p className="text-muted mb-0">B1</p>
               </div>
             </div>
-              <div className="col-lg-2 col-md-6 text-center">
+              <div className="col-lg-2 col-md-6 text-center lang-col">
                 <div className="mt-6">
                   <h3 className="h4 mb-2">French</h3>
                   <p className="text-muted mb-0">A2</p>
