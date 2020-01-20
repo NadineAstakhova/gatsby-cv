@@ -36,12 +36,12 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <SEO title="Home"/>
-        <section className="page-section bg-primary" id="about">
+        <section className="page-section  bg-dark" id="about">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 text-center">
                 <h2 className="text-white mt-0">About me</h2>
-                <hr className="divider light my-4"/>
+                <hr className="divider my-4"/>
                 <p className="text-white-50 mb-4">I am Nadiia. I </p>
                 <a className="btn btn-light btn-xl js-scroll-trigger" href="#services"
                    onClick={Scroller.handleAnchorScroll}>Get Started!</a>
@@ -59,7 +59,7 @@ export default class IndexPage extends React.Component {
                 <div className="mt-5">
                   <h3 className="h4 mb-2">Rockitworks</h3>
                   <p className="text-muted mb-0">Software Programmer</p>
-                  <p className="text-muted mb-0">Blavla</p>
+                  <p className="text-muted mb-0">Working with internal systems of the company. Working with clients of the firm that include development firms. Participation in different client projects: sites and CMS of online-offline shops, mobile operators etc. My role is a backend developer with the use of: PHP 5.5 - 7.2, Laravel 5.6, Symfony 3.3 - 4.0, Zend Framework 2, MySQL. In some projects, like a full-stack with frontend-end technologies: JavaScript(ECMAScript 6), jQuery, HTML, CSS, Bootstrap. I took part in the integration of online stores with payment systems, migration of projects from old versions of Symfony to new ones, integration of Push notifications (Firebase) with the API of the application, optimization of database queries, integration with payment systems (PayU, eCard) etc.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 text-right">
@@ -73,7 +73,8 @@ export default class IndexPage extends React.Component {
                 <div className="mt-5">
                   <h3 className="h4 mb-2">Donetsk National University</h3>
                   <p className="text-muted mb-0">IT staff at the Computer Technology Department</p>
-                  <p className="text-muted mb-0">Blavla</p>
+                  <p className="text-muted mb-0">Heads of dean's office interested in my web-system. So, they offered me to finalize it. My responsibilities are all development cycles: architecture, design, code, testing. Used PHP 5, PHPUnit, Yii2, JavaScript, JQuery, Pjax, CSS3, HTML5, Bootstrap3, MySQL
+                    and GIT.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 text-right">
@@ -264,6 +265,7 @@ export default class IndexPage extends React.Component {
         <section className="page-section bg-dark text-white" id="other">
           <div className="container text-center">
             <h2 className="mb-4">SPECIAL SKILLS</h2>
+            <hr className="divider my-4"/>
             <p className="text-muted mb-0">Language skills:</p>
             <hr className="divider my-4"/>
 
@@ -299,6 +301,10 @@ export default class IndexPage extends React.Component {
                 </div>
               </div>
             </div>
+
+            <hr className="divider my-4"/>
+            <p className="text-muted mb-0">Something</p>
+            <hr className="divider my-4"/>
           </div>
         </section>
 
@@ -308,15 +314,15 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-8 text-center">
                 <h2 className="mt-0">CONTACT ME</h2>
                 <hr className="divider my-4"/>
-                <p className="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an
+                <p className="text-muted mb-5">Ready to start your next project with me? Send me an
                   email
-                  and we will get back to you as soon as possible!</p>
+                  and I will get back to you as soon as possible!</p>
               </div>
             </div>
             <div className="row">
               <div className="col-lg-4 mr-auto text-center">
                 <i className="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                <a className="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+                <a className="d-block" href="mailto:nadine.astakhova@gmail.com">nadine.astakhova@gmail.com</a>
               </div>
             </div>
           </div>
