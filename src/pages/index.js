@@ -44,25 +44,28 @@ export default class IndexPage extends React.Component {
             </div>
             <hr className="divider my-4"/>
             <div className="row justify-content-center">
-              <div className="col-lg-7 text-center">
+              <div className="col-lg-7">
 
                 <p className="text-white-50 mb-4">Hi! I'm Nadiia and I'm very glad to see you on my CV site.
                   I'm a web developer with 2,5 years of commercial experience and more than 4 years of learning programming.
-                  My career began in Vinnytsia, Ukraine with creating special web-application for Donetsk National University.
+                  <br/>
+                  My career began in Vinnytsia, Ukraine, with creating special web-application for Donetsk National University.
                   After I finished integrating the application into the university system, I decided to try my hand at a foreign company in Warsaw, Poland.
+                  <br/>
                   So, now I have experience in different projects from individuals and small-businesses
                   to application for the largest supermarket chain in Poland.
                   My principle as a developer is to make complicated things easy and more efficiently.
-                  I like to learn new technologies and use them in practice.
-                  Outside of work, I do language studies, photography and movie watching &#128516;
+                  I like to learn new technologies and use it in practice.
+                  <br/>
+                  Outside of work, I prefer learning languages, taking pictures and watching movies. &#128516;
                 </p>
 
 
               </div>
-              <div className="col-lg-4 text-center">
-                <a className="portfolio-box" href="img/portfolio/fullsize/1.jpg" onClick={this.handlePortfolioClick.bind(this, 0)}>
-                  <Img fluid={this.props.data.images.edges[0].node.childImageSharp.fluid}/>
-                </a>
+              <div className="col-lg-4 text-center col-about-image">
+                <div className="div-about-image">
+                  <img className="about-image" src="images/me.jpg"/>
+                </div>
               </div>
             </div>
             <hr className="divider my-4"/>

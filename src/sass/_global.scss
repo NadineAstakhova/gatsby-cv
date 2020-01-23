@@ -62,3 +62,30 @@ hr.light {
 .about-me{
 	background-color: #e0e0e0 !important; ;
 }
+
+.div-about-image{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.about-image{
+	width: 100%;
+	height: auto;
+}
+
+.col-about-image{
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+}
