@@ -64,7 +64,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-4 text-center col-about-image">
                 <div className="div-about-image">
-                  <img className="about-image" src="images/me.jpg"/>
+                  <img className="about-image" src="../images/me.jpg"/>
                 </div>
               </div>
             </div>
