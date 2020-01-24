@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/gatsby-creative`,
+  //pathPrefix: `/gatsby-creative`,
   siteMetadata: {
     title: `CV`,
     description: `Web-developer, PHP, Laravel, Symfony, MVC, HTML, CMS, Api `,
