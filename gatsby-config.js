@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/gatsby-cv`,
+ // pathPrefix: `/gatsby-cv`,
   siteMetadata: {
     title: `CV`,
     description: `Web-developer, PHP, Laravel, Symfony, MVC, HTML, CMS, Api `,
