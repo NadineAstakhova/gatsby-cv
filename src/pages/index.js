@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import Scroller from "../components/scroller"
 import PortfolioModal from "../components/portfolio/modal"
 import PortfolioCarousel from "../components/portfolio/carousel"
+import Image from "../components/image";
 
 export default class IndexPage extends React.Component {
   constructor(props) {
@@ -64,7 +65,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-4 text-center col-about-image">
                 <div className="div-about-image">
-                  <img className="about-image" src="../images/me.jpg"/>
+                  <Image/>
                 </div>
               </div>
             </div>
