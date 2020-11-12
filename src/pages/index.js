@@ -8,6 +8,7 @@ import Scroller from "../components/scroller"
 import PortfolioModal from "../components/portfolio/modal"
 import PortfolioCarousel from "../components/portfolio/carousel"
 import Image from "../components/image";
+import Download from "../components/downloadpdf";
 
 export default class IndexPage extends React.Component {
   constructor(props) {
@@ -138,7 +139,7 @@ export default class IndexPage extends React.Component {
             </div>
             <div className="row align-items-center justify-content-center mt-5">
               <div className="col-lg-8 align-self-baseline text-center">
-              <a className="btn btn-primary btn-xl" href="/CV_Nadiia_Astakhova.pdf">Download My CV</a>
+                <Download/>
               </div>
             </div>
           </div>
