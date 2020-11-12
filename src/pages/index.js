@@ -48,7 +48,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-7">
 
                 <p className="text-white-50 mb-4">Hi! I'm Nadiia and I'm very glad to see you on my CV site.
-                  I'm a web developer with 2,5 years of commercial experience and more than 4 years of learning programming.
+                  I'm a web developer with {new Date().getFullYear() - 2017} years of commercial experience and more than 4 years of learning programming.
                   <br/>
                   My career began in Vinnytsia, Ukraine, with creating special web-application for Donetsk National University.
                   After I finished integrating the application into the university system, I decided to try my hand at a foreign company in Warsaw, Poland.
@@ -344,7 +344,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-2 col-md-6 text-center lang-col">
                 <div className="mt-6">
                   <h3 className="h4 mb-2">Polish</h3>
-                  <p className="text-muted mb-0">B1</p>
+                  <p className="text-muted mb-0">B2</p>
                 </div>
               </div>
                 <div className="col-lg-2 col-md-6 text-center lang-col">
