@@ -102,7 +102,7 @@ export default class IndexPage extends React.Component {
                     integration of Push notifications (Firebase) with the Application API; optimization of database queries;
                     integration with AWS, GA, ElasticSearch, SMTP, specific APIs for mobile operators etc.
                     <br/> <br/>
-                    My role is a backend developer with the use of: PHP 5.5 - 7.2, Laravel 5.6, Symfony 3.3 - 4.0, Zend Framework 2, MySQL. In some projects,
+                    My role is a backend developer with the use of: PHP 5.5 - 7.3, Laravel 5.6 - 6.0, Symfony 3.3 - 4.0, Zend Framework 2, MySQL. In some projects,
                     like a full-stack with frontend-end technologies: JavaScript(ECMAScript 6), jQuery, HTML, CSS, Bootstrap.
                     <br/><br/>
                     Version control systems: GIT (GitLab, GitHub), TortoiseSVN. Project management systems: Jira, Trello, Redmine.
@@ -134,6 +134,11 @@ export default class IndexPage extends React.Component {
                 <div className="mt-5">
                   <h3 className="h4 mb-2">Jul 2017 - Dec 2017</h3>
                 </div>
+              </div>
+            </div>
+            <div className="row align-items-center justify-content-center mt-5">
+              <div className="col-lg-8 align-self-baseline text-center">
+              <a className="btn btn-primary btn-xl" href="CV_Nadiia_Astakhova.pdf">Download My CV</a>
               </div>
             </div>
           </div>
@@ -237,7 +242,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-4 col-md-6 text-right">
                 <div className="mt-5">
-                  <h3 className="h4 mb-2">2017-2018</h3>
+                  <h3 className="h4 mb-2">2017-2019</h3>
                 </div>
               </div>
             </div>
@@ -271,7 +276,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fab fa-4x fa-laravel text-primary mb-4"></i>
-                  <p className="text-muted mb-0">Laravel v. 5.4 - 5.8</p>
+                  <p className="text-muted mb-0">Laravel v. 5.4 - 6.0</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
@@ -380,7 +385,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-2 col-md-6 text-center lang-col">
                 <div className="mt-6">
-                  <i className="fab fa-adobe fa-3x mb-3"></i>
+                  <i className="far fa-file-image fa-3x mb-3"></i>
                   <p className="text-muted mb-0">Adobe Photoshop</p>
                 </div>
               </div>
