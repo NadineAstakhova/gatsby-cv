@@ -10,7 +10,8 @@ const Download = () => {
       }
     }
   `)
-    return <a className="btn btn-primary btn-xl" href={data.file.publicURL} target="_blank">Download My CV</a>
+    const link = "/gatsby-cv" + data.file.publicURL;
+    return <a className="btn btn-primary btn-xl" href={link} target="_blank">Download My CV</a>
 }
 
 export default Download
