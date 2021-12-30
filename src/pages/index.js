@@ -103,7 +103,7 @@ export default class IndexPage extends React.Component {
                     integration of Push notifications (Firebase) with the Application API; optimization of database queries;
                     integration with AWS, GA, ElasticSearch, SMTP, specific APIs for mobile operators etc.
                     <br/> <br/>
-                    My role is a backend developer with the use of: PHP 5.5 - 7.3, Laravel 5.6 - 6.0, Symfony 3.3 - 4.0, Zend Framework 2, MySQL. In some projects,
+                    My role is a backend developer with the use of: PHP 5.5 - 7.4, Laravel 5.6 - 6.0, Symfony 3.3 - 4.0, Zend Framework 2, MySQL. In some projects,
                     like a full-stack with frontend-end technologies: JavaScript(ECMAScript 6), jQuery, HTML, CSS, Bootstrap.
                     <br/><br/>
                     Version control systems: GIT (GitLab, GitHub), TortoiseSVN. Project management systems: Jira, Trello, Redmine.
@@ -295,7 +295,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fab fa-4x fa-aws text-primary mb-4"></i>
-                  <p className="text-muted mb-0">For management files in big projects</p>
+                  <p className="text-muted mb-0">S3, ECS, ECR, CloudWatch, CodeCommit</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
