@@ -49,7 +49,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-7">
 
                 <p className="text-white-50 mb-4">Hi! I'm Nadiia and I'm very glad to see you on my CV site.
-                  I'm a web developer with {new Date().getFullYear() - 2017} years of commercial experience and more than 4 years of learning programming.
+                  I'm a web developer with {new Date().getFullYear() - 2017} years of commercial experience and more than {new Date().getFullYear() - 2015} years of learning programming.
                   <br/>
                   My career began in Vinnytsia, Ukraine, with creating special web-application for Donetsk National University.
                   After I finished integrating the application into the university system, I decided to try my hand at a foreign company in Warsaw, Poland.
@@ -96,17 +96,21 @@ export default class IndexPage extends React.Component {
                   <p className="mb-2">Software Programmer</p>
                   <p className="text-muted mb-0">
                     Projects: different internal systems and client's applications
-                    (online telecommunications service stores, electronic document management, CMS and API for mobile application of a large supermarket network).
+                    (a microservice project to analyse social media (using Youtube and Facebook APIs) for internal clients, online telecommunications service stores, electronic document management system, CMS and API for mobile application of a large supermarket network).
                     These are mostly loaded websites consisting of CMS and public page, REST-Api applications.
                     <br/> <br/>
-                    Responsibilities: integration of online stores with payment systems (PayU, eCard); migration of projects from old versions of Symfony to new ones;
+                    Responsibilities: development REST API; integration with social media APIs;
+                    integration of online stores with payment systems (PayU, eCard); migration of projects from old versions of Symfony/Laravel to new ones;
                     integration of Push notifications (Firebase) with the Application API; optimization of database queries;
-                    integration with AWS, GA, ElasticSearch, SMTP, specific APIs for mobile operators etc.
+                    integration with AWS, GA, ElasticSearch, SMTP, EmailLabs, SMSApi, specific APIs for mobile operators; Assecco, Docker etc.
                     <br/> <br/>
-                    My role is a backend developer with the use of: PHP 5.5 - 7.4, Laravel 5.6 - 6.0, Symfony 3.3 - 4.0, Zend Framework 2, MySQL. In some projects,
+                    My role is a backend developer with the use of: PHP 5.5 - 8.0, Laravel 5.6 - 8.0, Symfony 3.3 - 5.4, Zend Framework 2, MySQL. In some projects,
                     like a full-stack with frontend-end technologies: JavaScript(ECMAScript 6), jQuery, HTML, CSS, Bootstrap.
                     <br/><br/>
                     Version control systems: GIT (GitLab, GitHub), TortoiseSVN. Project management systems: Jira, Trello, Redmine.
+                    <br/><br/>
+                    Also I have some experience with Java, ReactJS and Vue.js.
+                    I worked on a special form element that allows edit a photo online for a future card.
                   </p>
                 </div>
               </div>
@@ -277,13 +281,13 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fab fa-4x fa-laravel text-primary mb-4"></i>
-                  <p className="text-muted mb-0">Laravel v. 5.4 - 6.0</p>
+                  <p className="text-muted mb-0">Laravel v. 5.4 - 8.0</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fab fa-4x fa-symfony text-primary mb-4"></i>
-                  <p className="text-muted mb-0">Symfony v. 3.0 - 4.1</p>
+                  <p className="text-muted mb-0">Symfony v. 3.0 - 5.4</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
@@ -344,7 +348,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-2 col-md-6 text-center lang-col">
                 <div className="mt-6">
                   <h3 className="h4 mb-2">English</h3>
-                  <p className="text-muted mb-0">B1</p>
+                  <p className="text-muted mb-0">B2</p>
                 </div>
               </div>
               <div className="col-lg-2 col-md-6 text-center lang-col">
@@ -368,16 +372,23 @@ export default class IndexPage extends React.Component {
             <div className="row lang-row">
               <div className="col-lg-2 col-md-6 text-center lang-col">
                 <div className="mt-6">
-                  <i className="fab fa-react fa-3x mb-3"></i>
-                  <p className="text-muted mb-0">React.js</p>
+                  <i className="fab fa-github fa-3x mb-3"></i>
+                  <p className="text-muted mb-0">GitHub, GitLab</p>
                 </div>
               </div>
               <div className="col-lg-2 col-md-6 text-center lang-col">
                 <div className="mt-6">
-                  <i className="fab fa-angular fa-3x mb-3"></i>
-                  <p className="text-muted mb-0">Angular 1</p>
+                  <i className="fab fa-docker fa-3x mb-3"></i>
+                  <p className="text-muted mb-0">Docker</p>
                 </div>
               </div>
+              <div className="col-lg-2 col-md-6 text-center lang-col">
+                <div className="mt-6">
+                  <i className="fab fa-react fa-3x mb-3"></i>
+                  <p className="text-muted mb-0">React.js</p>
+                </div>
+              </div>
+
               <div className="col-lg-2 col-md-6 text-center lang-col">
                 <div className="mt-6">
                   <i className="fas fa-camera fa-3x mb-3"></i>
@@ -391,12 +402,7 @@ export default class IndexPage extends React.Component {
                 </div>
               </div>
 
-              <div className="col-lg-2 col-md-6 text-center lang-col">
-                <div className="mt-6">
-                  <i className="fas fa-tasks fa-3x mb-3"></i>
-                  <p className="text-muted mb-0">Self-management</p>
-                </div>
-              </div>
+
             </div>
           </div>
         </section>
