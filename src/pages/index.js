@@ -92,8 +92,36 @@ export default class IndexPage extends React.Component {
             <div className="row">
               <div className="col-lg-8 col-md-6 text-left">
                 <div className="mt-5">
+                  <h3 className="h4 mb-3">FAAREN</h3>
+                  <p className="h5 mb-2">Software Developer</p>
+                  <p className="text-muted mb-0">
+                    Project: an international car subscription software
+                    FAAREN marketplace, White label solution for car dealers, Payment management
+                    <br/> <br/>
+                    Responsibilities: development CRM, Client Side, REST API and mails; integration with the payment processing platform – Stripe;
+                    working with a cloud-based tool for localization – Lokalise; integration with the feature management platform – LaunchDarkly;
+                    optimization requests to API and Database; development microservices with configuration service and communication via webhooks (Spatie/Laravel Webhook libraries;
+                    code review; testings; discoveries of new features.
+                    <br/> <br/>
+                    My role is a backend developer with the use of: PHP 7.4 - 8.2, Laravel 5.8 - 10.0, Symfony 5.4, MySQL. Also using
+                    frontend-end technologies: JavaScript(ECMAScript 6), jQuery, HTML, CSS, Bootstrap, Vue.js.
+                    <br/><br/>
+                    Version control systems: GIT (GitHub) with GitLab. Project management systems: Jira.
+                  </p>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 text-right">
+                <div className="mt-5">
+                  <h3 className="h4 mb-2">Jan 2023 - Nov 2023</h3>
+                  <p className="mb-2">Würzburg, Germany</p>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-8 col-md-6 text-left">
+                <div className="mt-5">
                   <h3 className="h4 mb-3">Rockitworks</h3>
-                  <p className="mb-2">Software Programmer</p>
+                  <p className="h5 mb-2">Software Programmer</p>
                   <p className="text-muted mb-0">
                     Projects: different internal systems and client's applications
                     (a microservice project to analyse social media (using Youtube and Facebook APIs) for internal clients, online telecommunications service stores, electronic document management system, CMS and API for mobile application of a large supermarket network).
@@ -116,7 +144,8 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-lg-4 col-md-6 text-right">
                 <div className="mt-5">
-                  <h3 className="h4 mb-2">Jan 2018 - Present</h3>
+                  <h3 className="h4 mb-2">Jan 2018 - Dec 2022</h3>
+                  <p className="mb-2">Warsaw, Poland</p>
                 </div>
               </div>
             </div>
@@ -124,7 +153,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-8 col-md-6 text-left">
                 <div className="mt-5">
                   <h3 className="h4 mb-3">Donetsk National University</h3>
-                  <p className="mb-2">IT staff at the Computer Technology Department</p>
+                  <p className="h-5 mb-2">IT staff at the Computer Technology Department</p>
                   <p className="text-muted mb-0">
                     Responsibilities: development and integration of a remote student lab control system.
                     <br/> <br/>
@@ -138,6 +167,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-md-6 text-right">
                 <div className="mt-5">
                   <h3 className="h4 mb-2">Jul 2017 - Dec 2017</h3>
+                  <p className="mb-2">Vinnytsia, Ukraine</p>
                 </div>
               </div>
             </div>
@@ -248,6 +278,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-md-6 text-right">
                 <div className="mt-5">
                   <h3 className="h4 mb-2">2017-2019</h3>
+                  <p className="text-muted mb-0">Vinnytsia, Ukraine</p>
                 </div>
               </div>
             </div>
@@ -261,6 +292,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-md-6 text-right">
                 <div className="mt-5">
                   <h3 className="h4 mb-2">2013-2017</h3>
+                  <p className="text-muted mb-0">Vinnytsia, Ukraine</p>
                 </div>
               </div>
             </div>
@@ -281,7 +313,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fab fa-4x fa-laravel text-primary mb-4"></i>
-                  <p className="text-muted mb-0">Laravel v. 5.4 - 8.0</p>
+                  <p className="text-muted mb-0">Laravel v. 5.4 - 10.0</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
@@ -317,7 +349,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-3 col-md-6 text-center">
                 <div className="mt-5">
                   <i className="fab fa-4x fa-java text-primary mb-4"></i>
-                  <p className="text-muted mb-0">Some experience in CORE JAVA, JAVA SE, ANDROID SDK</p>
+                  <p className="text-muted mb-0">Some experience in CORE JAVA, JAVA SE, ANDROID SDK, Go</p>
                 </div>
               </div>
 
