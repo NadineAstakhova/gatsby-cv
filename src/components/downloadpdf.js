@@ -10,7 +10,7 @@ const Download = () => {
       }
     }
   `)
-    const link = "/gatsby-cv" + data.file.publicURL;
+    const link = data.file.publicURL;
     return <a className="btn btn-primary btn-xl" href={link} target="_blank">Download My CV</a>
 }
 
