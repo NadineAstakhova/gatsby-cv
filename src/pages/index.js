@@ -54,12 +54,12 @@ export default class IndexPage extends React.Component {
                   My career began in Vinnytsia, Ukraine, with creating special web-application for Donetsk National University.
                   After I finished integrating the application into the university system, I decided to try my hand at a foreign company in Warsaw, Poland.
                   <br/>
-                  So, now I have experience in different projects from individuals and small-businesses
-                  to application for the largest supermarket chain in Poland.
+                  I have experience in different projects from individuals and small-businesses
+                  to application for the largest supermarket chain in Poland. Also, I worked for an international car subscription company located at Germany.
                   My principle as a developer is to make complicated things easy and more efficiently.
                   I like to learn new technologies and use it in practice.
                   <br/>
-                  Outside of work, I prefer learning languages, taking pictures and watching movies. &#128516;
+                  Outside of work, I prefer learning languages, playing with my cat, reading books, travelling, watching movies and taking pictures (if you want, you could explore my pictures <a className="special-link" href="https://www.pexels.com/@nadiia-3130737/" target="_blank" >here</a>). &#128516;
                 </p>
 
 
