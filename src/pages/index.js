@@ -95,25 +95,25 @@ export default class IndexPage extends React.Component {
                   <h3 className="h4 mb-3">FAAREN</h3>
                   <p className="h5 mb-2">Software Developer</p>
                   <p className="text-muted mb-0">
-                    Project: an international car subscription software
-                    FAAREN marketplace, White label solution for car dealers, Payment management
+                    Project: an international car subscription software with <a href="https://faaren.com/" target="_blank">FAAREN marketplace</a>, <a href="https://faaren-group.com/en/" target="_blank">White label solution for car dealers</a>, Payment management.
                     <br/> <br/>
-                    Responsibilities: development CRM, Client Side, REST API and mails; integration with the payment processing platform – Stripe;
-                    working with a cloud-based tool for localization – Lokalise; integration with the feature management platform – LaunchDarkly;
-                    optimization requests to API and Database; development microservices with configuration service and communication via webhooks (Spatie/Laravel Webhook libraries;
-                    code review; testings; discoveries of new features.
+                    Responsibilities:
+                    development CRM, Client Side, REST API and mails; integration with the payment processing platform – <a href="https://stripe.com/en-pl" target="_blank">Stripe</a>;
+                    working with a cloud-based tool for localization – <a href="https://lokalise.com/" target="_blank">Lokalise</a>; integration with the feature management platform – <a href="https://launchdarkly.com/" target="_blank">LaunchDarkly</a>;
+                    optimization requests to API and Database; development microservices with configuration service and communication via webhooks (<a href="https://github.com/spatie" target="_blank">Spatie/Laravel Webhook libraries</a>);
+                    working with an international team from Germany, Poland and USA: code review, testings, discoveries of new features.
                     <br/> <br/>
                     My role is a backend developer with the use of: PHP 7.4 - 8.2, Laravel 5.8 - 10.0, Symfony 5.4, MySQL. Also using
                     frontend-end technologies: JavaScript(ECMAScript 6), jQuery, HTML, CSS, Bootstrap, Vue.js.
                     <br/><br/>
-                    Version control systems: GIT (GitHub) with GitLab. Project management systems: Jira.
+                    Version control systems: GIT (GitHub) with GitLab. Project management systems: Jira with integration to Sentry and Slack.
                   </p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 text-right">
                 <div className="mt-5">
                   <h3 className="h4 mb-2">Jan 2023 - Nov 2023</h3>
-                  <p className="mb-2">Würzburg, Germany</p>
+                  <p className="mb-2 text-muted">Würzburg, Germany</p>
                 </div>
               </div>
             </div>
@@ -123,14 +123,16 @@ export default class IndexPage extends React.Component {
                   <h3 className="h4 mb-3">Rockitworks</h3>
                   <p className="h5 mb-2">Software Programmer</p>
                   <p className="text-muted mb-0">
-                    Projects: different internal systems and client's applications
-                    (a microservice project to analyse social media (using Youtube and Facebook APIs) for internal clients, online telecommunications service stores, electronic document management system, CMS and API for mobile application of a large supermarket network).
+                    Projects: different internal systems and client's applications: CMS and API for mobile application of a large supermarket network - <a href="https://www.biedronka.pl/pl" target="_blank">Biedronka</a>;
+                    a data-driven contract management system - <a href="https://pergam.in/en/home/" target="_blank">Pergamin</a>;
+                    a microservice project to analyse social media (using Youtube and Facebook APIs) for internal clients in <a href="https://www.dentsu.com/pl/pl" target="_blank">Dentsu Poland</a>;
+                    online telecommunications service stores for NextMobile.
                     These are mostly loaded websites consisting of CMS and public page, REST-Api applications.
                     <br/> <br/>
                     Responsibilities: development REST API; integration with social media APIs;
                     integration of online stores with payment systems (PayU, eCard); migration of projects from old versions of Symfony/Laravel to new ones;
                     integration of Push notifications (Firebase) with the Application API; optimization of database queries;
-                    integration with AWS, GA, ElasticSearch, SMTP, EmailLabs, SMSApi, specific APIs for mobile operators; Assecco, Docker etc.
+                    integration with AWS, GA, ElasticSearch, SMTP, EmailLabs, SMSApi, specific APIs for mobile operators: Assecco, Docker etc.
                     <br/> <br/>
                     My role is a backend developer with the use of: PHP 5.5 - 8.0, Laravel 5.6 - 8.0, Symfony 3.3 - 5.4, Zend Framework 2, MySQL. In some projects,
                     like a full-stack with frontend-end technologies: JavaScript(ECMAScript 6), jQuery, HTML, CSS, Bootstrap.
@@ -138,14 +140,14 @@ export default class IndexPage extends React.Component {
                     Version control systems: GIT (GitLab, GitHub), TortoiseSVN. Project management systems: Jira, Trello, Redmine.
                     <br/><br/>
                     Also I have some experience with Java, ReactJS and Vue.js.
-                    I worked on a special form element that allows edit a photo online for a future card.
+                    I worked on a special the module to editing a photo on the form to order <a href="https://www.wtp.waw.pl/en/warsaw-city-card/" target="_blank">Warsaw City Card</a>.
                   </p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 text-right">
                 <div className="mt-5">
                   <h3 className="h4 mb-2">Jan 2018 - Dec 2022</h3>
-                  <p className="mb-2">Warsaw, Poland</p>
+                  <p className="mb-2 text-muted">Warsaw, Poland</p>
                 </div>
               </div>
             </div>
@@ -167,7 +169,7 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-4 col-md-6 text-right">
                 <div className="mt-5">
                   <h3 className="h4 mb-2">Jul 2017 - Dec 2017</h3>
-                  <p className="mb-2">Vinnytsia, Ukraine</p>
+                  <p className="mb-2 text-muted">Vinnytsia, Ukraine</p>
                 </div>
               </div>
             </div>
