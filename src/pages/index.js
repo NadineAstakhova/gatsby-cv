@@ -413,13 +413,13 @@ export default class IndexPage extends React.Component {
               <div className="col-lg-2 col-md-6 text-center lang-col">
                 <div className="mt-6">
                   <i className="fab fa-docker fa-3x mb-3"></i>
-                  <p className="text-muted mb-0">Docker</p>
+                  <p className="text-muted mb-0">Docker, Heroku, Gitpod</p>
                 </div>
               </div>
               <div className="col-lg-2 col-md-6 text-center lang-col">
                 <div className="mt-6">
-                  <i className="fab fa-react fa-3x mb-3"></i>
-                  <p className="text-muted mb-0">React.js</p>
+                  <i className="fa fa-file-code fa-3x mb-3"></i>
+                  <p className="text-muted mb-0">Go, Vue.js, React.js</p>
                 </div>
               </div>
 
