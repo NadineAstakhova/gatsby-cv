@@ -351,7 +351,7 @@ export default class IndexPage extends React.Component {
                 <div className="col-lg-3 col-md-6 text-center">
                   <div className="mt-5">
                     <i className="fab fa-4x fa-java text-primary mb-4"></i>
-                    <p className="text-muted mb-0">Some experience in CORE JAVA, JAVA SE, ANDROID SDK, Go</p>
+                    <p className="text-muted mb-0">Some experience in CORE JAVA, JAVA SE, ANDROID SDK</p>
                   </div>
                 </div>
 
