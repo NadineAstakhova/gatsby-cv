@@ -92,6 +92,35 @@ export default class IndexPage extends React.Component {
               <div className="row">
                 <div className="col-lg-8 col-md-6 text-left">
                   <div className="mt-5">
+                    <h3 className="h4 mb-3">PUZZLETAX</h3>
+                    <p className="h5 mb-2">Full Stack Engineer</p>
+                    <p className="text-muted mb-0">
+                      Project: a microservice system for complex business support <a href="https://puzzletax.pl/" target="_blank">PuzzleTax</a>, which allows managing accounting and HR processes from one place.
+                      <br/> <br/>
+                      Responsibilities:
+                      development Backend and Frontend parts; integration with the Polish taxes system – <a href="https://www.zus.pl/" target="_blank">Zus</a>;
+                      improving the performance of search queries via using ElasticSearch;
+                      working with different APIs like <a href="https://kodpocztowy.intami.pl/" target="_blank">PostalCode API</a>, 
+                      <a href="https://www.fizen.com/" target="_blank">OpenBanking</a> etc; development of the internal library; 
+                      working with a team: code review, testings, discoveries of new features, support clients.
+                      <br/> <br/>
+                      My role is a backend developer with the use of: PHP 7.4 - 8.2, Laravel 5.8 - 7.*, Lumen 6.*, MySQL, RabbitMQ, ElasticSearch, Java, Docker. Also using
+                      frontend-end technologies: JavaScript(ECMAScript 6), jQuery, HTML, CSS, Bootstrap, Vue.js.
+                      <br/><br/>
+                      Version control systems: GIT (Bitbucket). Project management systems: Jira with integration to Sentry.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 text-right">
+                  <div className="mt-5">
+                    <h3 className="h4 mb-2">Mar 2024 - Present</h3>
+                    <p className="mb-2 text-muted">Warsaw, Poland</p>
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-lg-8 col-md-6 text-left">
+                  <div className="mt-5">
                     <h3 className="h4 mb-3">FAAREN</h3>
                     <p className="h5 mb-2">Software Developer</p>
                     <p className="text-muted mb-0">
