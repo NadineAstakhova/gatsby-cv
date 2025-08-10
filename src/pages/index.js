@@ -95,19 +95,27 @@ export default class IndexPage extends React.Component {
                     <h3 className="h4 mb-3">PUZZLETAX</h3>
                     <p className="h5 mb-2">Full Stack Engineer</p>
                     <p className="text-muted mb-0">
-                      Project: a microservice system for complex business support <a href="https://puzzletax.pl/" target="_blank">PuzzleTax</a>, which allows managing accounting and HR processes from one place.
+                      Project: a microservice system for complex business support <a href="https://puzzletax.pl/"
+                                                                                     target="_blank">PuzzleTax</a>,
+                      which allows managing accounting and HR processes from one place.
                       <br/> <br/>
                       Responsibilities:
-                      development Backend and Frontend parts; integration with the Polish taxes system – <a href="https://www.zus.pl/" target="_blank">Zus</a>;
+                      development Backend and Frontend parts; integration with the Polish taxes system – <a
+                        href="https://www.zus.pl/" target="_blank">Zus</a>;
                       improving the performance of search queries via using ElasticSearch;
-                      working with different APIs like <a href="https://kodpocztowy.intami.pl/" target="_blank">PostalCode API</a>, 
-                      <a href="https://www.fizen.com/" target="_blank">OpenBanking</a> etc; development of the internal library; 
+                      working with different APIs like <a href="https://kodpocztowy.intami.pl/" target="_blank">PostalCode
+                      API</a>,
+                      <a href="https://www.fizen.com/" target="_blank">OpenBanking</a>, <a href="https://api.stat.gov.pl/" target="_blank">API GUS</a> etc;
+                      development an internal Java application for electronic document signing;
+                      development of the internal library; using of AI agents (via Cursor, plugins in PhpStorm like GitHub Copilot and Claude Sonnet) for improvement of development for non-critical parts;
                       working with a team: code review, testings, discoveries of new features, support clients.
                       <br/> <br/>
-                      My role is a backend developer with the use of: PHP 7.4 - 8.2, Laravel 5.8 - 7.*, Lumen 6.*, MySQL, RabbitMQ, ElasticSearch, Java, Docker. Also using
+                      My role is a backend developer with the use of: PHP 7.4 - 8.2, Laravel 5.8 - 7.*, Lumen 6.*,
+                      MySQL, RabbitMQ, ElasticSearch, Java, Docker. Also using
                       frontend-end technologies: JavaScript(ECMAScript 6), jQuery, HTML, CSS, Bootstrap, Vue.js.
                       <br/><br/>
-                      Version control systems: GIT (Bitbucket). Project management systems: Jira with integration to Sentry.
+                      Version control systems: GIT (Bitbucket). Project management systems: Jira with integration to
+                      Sentry.
                     </p>
                   </div>
                 </div>
@@ -132,7 +140,7 @@ export default class IndexPage extends React.Component {
                       optimization requests to API and Database; development microservices with configuration service and communication via webhooks (<a href="https://github.com/spatie" target="_blank">Spatie/Laravel Webhook libraries</a>);
                       working with an international team from Germany, Poland and USA: code review, testings, discoveries of new features.
                       <br/> <br/>
-                      My role is a backend developer with the use of: PHP 7.4 - 8.2, Laravel 5.8 - 10.0, Symfony 5.4, MySQL. Also using
+                      My role was a backend developer with the use of: PHP 7.4 - 8.2, Laravel 5.8 - 10.0, Symfony 5.4, MySQL. Also using
                       frontend-end technologies: JavaScript(ECMAScript 6), jQuery, HTML, CSS, Bootstrap, Vue.js.
                       <br/><br/>
                       Version control systems: GIT (GitHub) with GitLab. Project management systems: Jira with integration to Sentry and Slack.
@@ -163,7 +171,7 @@ export default class IndexPage extends React.Component {
                       integration of Push notifications (Firebase) with the Application API; optimization of database queries;
                       integration with AWS, GA, ElasticSearch, SMTP, EmailLabs, SMSApi, specific APIs for mobile operators: Assecco, Docker etc.
                       <br/> <br/>
-                      My role is a backend developer with the use of: PHP 5.5 - 8.0, Laravel 5.6 - 8.0, Symfony 3.3 - 5.4, Zend Framework 2, MySQL. In some projects,
+                      My role was a backend developer with the use of: PHP 5.5 - 8.0, Laravel 5.6 - 8.0, Symfony 3.3 - 5.4, Zend Framework 2, MySQL. In some projects,
                       like a full-stack with frontend-end technologies: JavaScript(ECMAScript 6), jQuery, HTML, CSS, Bootstrap.
                       <br/><br/>
                       Version control systems: GIT (GitLab, GitHub), TortoiseSVN. Project management systems: Jira, Trello, Redmine.
