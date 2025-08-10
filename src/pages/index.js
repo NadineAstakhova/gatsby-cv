@@ -104,8 +104,7 @@ export default class IndexPage extends React.Component {
                         href="https://www.zus.pl/" target="_blank">Zus</a>;
                       improving the performance of search queries via using ElasticSearch;
                       working with different APIs like <a href="https://kodpocztowy.intami.pl/" target="_blank">PostalCode
-                      API</a>,
-                      <a href="https://www.fizen.com/" target="_blank">OpenBanking</a>, <a href="https://api.stat.gov.pl/" target="_blank">API GUS</a> etc;
+                      API</a>, <a href="https://www.fizen.com/" target="_blank">OpenBanking</a>, <a href="https://api.stat.gov.pl/" target="_blank">API GUS</a> etc;
                       development an internal Java application for electronic document signing;
                       development of the internal library; using of AI agents (via Cursor, plugins in PhpStorm like GitHub Copilot and Claude Sonnet) for improvement of development for non-critical parts;
                       working with a team: code review, testings, discoveries of new features, support clients.
